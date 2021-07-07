@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    position: fixed;
+    top:0;
+    width:100%;
+    justify-content: space-between;
+    padding:15px;
+    height:30px;
+    z-index:1;
+    transition-timing-function: ease-in-out ;
+   transition:all .5s;
+    
+}
+.nav-bar{
+    background-color: black;
+}
+.netflix-logo{
+    object-fit: contain;
+   width:80px;
+   position: fixed;
+    left:10px;
+   transition-timing-function: ease-in-out .5s;
+   
+    
+}
+.netflix-logo:hover{
+    width: 85px;
+}
+.netflix-avatar{
+    object-fit: contain;
+    position: fixed;
+   right:10px;
+   width:30px;
+   border-radius: 10%;  
+   transition-timing-function: ease-in-out .5s; 
+}
+.netflix-avatar:hover{
+    width: 35px;
+}

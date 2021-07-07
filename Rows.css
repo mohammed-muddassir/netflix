@@ -1,0 +1,33 @@
+h2{
+    /* color: #fff; */
+}
+.row_posters{
+    display: flex;
+    margin-left: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+
+.bait{
+   border-radius: 2px;
+    object-fit: contain;
+    width:100%;
+    max-height:100px;
+    margin-right:5px;
+    transition-timing-function: ease-in-out ;
+   
+}
+.row_large{
+    max-height:250px
+}
+.bait:hover{
+    transform: scale(0.9);
+    border-radius: 8px;
+}
+.row_large:hover{
+    transform: scale(0.9);
+    border-radius: 8px;
+}

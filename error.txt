@@ -1,0 +1,12 @@
+<img src={doomer} alt="doomer"></img>
+ <img 
+                    className='recent_thumb'
+                    src={`${base_url}${recent.backdrop_path}`}
+                    alt="recent_image"
+               
+               ></img>
+               ${islarge&& "row_large"}
+
+               var a=document.querySelector("#watch")
+
+               
